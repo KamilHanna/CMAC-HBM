@@ -2,7 +2,7 @@
 # including all the necessary source files and generating the block design project
 
 
-set questa_libraries_path "/eda/vivado-compiled-libraries/Questa/Vivado_2023.2-Questa_2023.4"
+set questa_libraries_path "/eda/vivado-compiled-libraries/Questa/Vivado_2024.2-Questa_2023.4"
 
 set prj_name "pcie-hbm_sim"
 file mkdir vivado_gen
