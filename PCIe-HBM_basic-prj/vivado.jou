@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Thu Apr  3 09:38:12 2025
+# Process ID         : 1608219
+# Current directory  : /home/khanna/CMAC-HBM/PCIe-HBM_basic-prj
+# Command line       : vivado -mode batch -source ./tcl/gen_sim_prj.tcl
+# Log file           : /home/khanna/CMAC-HBM/PCIe-HBM_basic-prj/vivado.log
+# Journal file       : /home/khanna/CMAC-HBM/PCIe-HBM_basic-prj/vivado.jou
+# Running On         : ogreOptiPlex
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 22.04.5 LTS
+# Processor Detail   : Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz
+# CPU Frequency      : 4704.546 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 67123 MB
+# Swap memory        : 2147 MB
+# Total Virtual      : 69271 MB
+# Available Virtual  : 58754 MB
+#-----------------------------------------------------------
+source ./tcl/gen_sim_prj.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+launch_simulation

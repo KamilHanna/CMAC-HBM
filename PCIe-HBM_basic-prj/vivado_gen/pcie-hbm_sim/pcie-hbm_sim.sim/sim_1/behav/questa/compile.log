@@ -1,0 +1,235 @@
+QuestaSim vmap 2023.4 Lib Mapping Utility 2023.10 Oct  9 2023
+vmap xilinx_vip questa_lib/msim/xilinx_vip 
+Copying /eda/Siemens/2023-24/RHELx86/QUESTA-CORE-PRIME_2023.4/questasim/linux/../modelsim.ini to modelsim.ini
+Modifying modelsim.ini
+QuestaSim vmap 2023.4 Lib Mapping Utility 2023.10 Oct  9 2023
+vmap xpm questa_lib/msim/xpm 
+Modifying modelsim.ini
+QuestaSim vmap 2023.4 Lib Mapping Utility 2023.10 Oct  9 2023
+vmap xil_defaultlib questa_lib/msim/xil_defaultlib 
+Modifying modelsim.ini
+QuestaSim vmap 2023.4 Lib Mapping Utility 2023.10 Oct  9 2023
+vmap hbm_v1_0_16 questa_lib/msim/hbm_v1_0_16 
+Modifying modelsim.ini
+QuestaSim vmap 2023.4 Lib Mapping Utility 2023.10 Oct  9 2023
+vmap xlconstant_v1_1_9 questa_lib/msim/xlconstant_v1_1_9 
+Modifying modelsim.ini
+QuestaSim vmap 2023.4 Lib Mapping Utility 2023.10 Oct  9 2023
+vmap lib_cdc_v1_0_3 questa_lib/msim/lib_cdc_v1_0_3 
+Modifying modelsim.ini
+QuestaSim vmap 2023.4 Lib Mapping Utility 2023.10 Oct  9 2023
+vmap proc_sys_reset_v5_0_16 questa_lib/msim/proc_sys_reset_v5_0_16 
+Modifying modelsim.ini
+QuestaSim vmap 2023.4 Lib Mapping Utility 2023.10 Oct  9 2023
+vmap smartconnect_v1_0 questa_lib/msim/smartconnect_v1_0 
+Modifying modelsim.ini
+QuestaSim vmap 2023.4 Lib Mapping Utility 2023.10 Oct  9 2023
+vmap axi_infrastructure_v1_1_0 questa_lib/msim/axi_infrastructure_v1_1_0 
+Modifying modelsim.ini
+QuestaSim vmap 2023.4 Lib Mapping Utility 2023.10 Oct  9 2023
+vmap axi_register_slice_v2_1_33 questa_lib/msim/axi_register_slice_v2_1_33 
+Modifying modelsim.ini
+QuestaSim vmap 2023.4 Lib Mapping Utility 2023.10 Oct  9 2023
+vmap axi_vip_v1_1_19 questa_lib/msim/axi_vip_v1_1_19 
+Modifying modelsim.ini
+QuestaSim vmap 2023.4 Lib Mapping Utility 2023.10 Oct  9 2023
+vmap gtwizard_ultrascale_v1_7_19 questa_lib/msim/gtwizard_ultrascale_v1_7_19 
+Modifying modelsim.ini
+QuestaSim vmap 2023.4 Lib Mapping Utility 2023.10 Oct  9 2023
+vmap qdma_v5_0_12 questa_lib/msim/qdma_v5_0_12 
+Modifying modelsim.ini
+QuestaSim vmap 2023.4 Lib Mapping Utility 2023.10 Oct  9 2023
+vmap blk_mem_gen_v8_4_9 questa_lib/msim/blk_mem_gen_v8_4_9 
+Modifying modelsim.ini
+QuestaSim vmap 2023.4 Lib Mapping Utility 2023.10 Oct  9 2023
+vmap axi_bram_ctrl_v4_1_11 questa_lib/msim/axi_bram_ctrl_v4_1_11 
+Modifying modelsim.ini
+QuestaSim-64 vlog 2023.4 Compiler 2023.10 Oct  9 2023
+Start time: 10:09:49 on Apr 03,2025
+vlog -incr -mfcu "+notimingchecks" -suppress 8602 -sv -L hbm_v1_0_16 -L qdma_v5_0_12 -L axi_vip_v1_1_19 -L smartconnect_v1_0 -L xilinx_vip -work xilinx_vip "+incdir+/work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/include" /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi4stream_vip_axi4streampc.sv /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/xil_common_vip_pkg.sv /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi4stream_vip_pkg.sv /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_pkg.sv /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi4stream_vip_if.sv /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_if.sv /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/clk_vip_if.sv /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/rst_vip_if.sv 
+-- Compiling interface axi4stream_vip_axi4streampc
+-- Compiling interface axi_vip_axi4pc
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(1145): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(1166): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(1187): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(1195): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(1226): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(1254): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(1306): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(1339): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(1354): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(1367): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(1380): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(1393): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(1406): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(1419): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(1432): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(1445): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(1458): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(1471): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(1484): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(1703): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(1714): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(1725): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(1736): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(1747): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(1758): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(1769): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(1780): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(1791): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(1802): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(1813): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(1999): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(2014): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(2027): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(2040): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(2085): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(2096): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(2107): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(2224): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(2322): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(2478): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(2630): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(2721): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(2862): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(2888): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(2933): No trigger event inferred in disable expression.
+** Warning: (vlog-13361) /work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/hdl/axi_vip_axi4pc.sv(2955): No trigger event inferred in disable expression.
+-- Compiling package xil_common_vip_pkg
+-- Compiling package axi4stream_vip_pkg
+-- Compiling package axi_vip_pkg
+-- Compiling package axi4stream_vip_axi4streampc_sv_unit
+-- Compiling interface axi4stream_vip_if
+-- Compiling interface axi_vip_if
+-- Compiling interface clk_vip_if
+-- Compiling interface rst_vip_if
+
+Top level modules:
+	--none--
+End time: 10:09:50 on Apr 03,2025, Elapsed time: 0:00:01
+Errors: 0, Warnings: 46
+QuestaSim-64 vlog 2023.4 Compiler 2023.10 Oct  9 2023
+Start time: 10:09:50 on Apr 03,2025
+vlog -incr -mfcu "+notimingchecks" -suppress 8602 -sv -L hbm_v1_0_16 -L qdma_v5_0_12 -L axi_vip_v1_1_19 -L smartconnect_v1_0 -L xilinx_vip -work xpm "+incdir+../../../../../../src/include" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ip/qdma_hbm_bd_hbm_0_0/hdl/rtl" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/7b8c/verif/model" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/f0b6/hdl/verilog" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/0127/hdl/verilog" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/ec67/hdl" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/3cbc" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ip/qdma_hbm_bd_qdma_0_0/ip_0/source" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/0e1b/hdl/verilog" "+incdir+/work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/include" /work_extra/tools/Xilinx/Vivado/2024.2/data/ip/xpm/xpm_cdc/hdl/xpm_cdc.sv /work_extra/tools/Xilinx/Vivado/2024.2/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv /work_extra/tools/Xilinx/Vivado/2024.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv 
+-- Compiling module xpm_cdc_single
+-- Compiling module xpm_cdc_gray
+-- Compiling module xpm_cdc_handshake
+-- Compiling module xpm_cdc_pulse
+-- Compiling module xpm_cdc_array_single
+-- Compiling module xpm_cdc_sync_rst
+-- Compiling module xpm_cdc_async_rst
+-- Compiling module xpm_cdc_low_latency_handshake
+-- Compiling module xpm_fifo_base
+-- Compiling module xpm_fifo_rst
+-- Compiling module xpm_counter_updn
+-- Compiling module xpm_fifo_reg_vec
+-- Compiling module xpm_fifo_reg_bit
+-- Compiling module xpm_reg_pipe_bit
+-- Compiling module xpm_fifo_sync
+-- Compiling module xpm_fifo_async
+-- Compiling module xpm_fifo_axis
+-- Compiling module xpm_fifo_axif
+-- Compiling module xpm_fifo_axil
+-- Compiling module xpm_fifo_axi_reg_slice
+-- Compiling module xpm_memory_base
+-- Compiling module asym_bwe_bb
+-- Compiling module xpm_memory_dpdistram
+-- Compiling module xpm_memory_dprom
+-- Compiling module xpm_memory_sdpram
+-- Compiling module xpm_memory_spram
+-- Compiling module xpm_memory_sprom
+-- Compiling module xpm_memory_tdpram
+
+Top level modules:
+	xpm_cdc_handshake
+	xpm_cdc_pulse
+	xpm_cdc_array_single
+	xpm_cdc_async_rst
+	xpm_cdc_low_latency_handshake
+	xpm_fifo_sync
+	xpm_fifo_async
+	xpm_fifo_axis
+	xpm_fifo_axif
+	xpm_fifo_axil
+	xpm_memory_dpdistram
+	xpm_memory_dprom
+	xpm_memory_sdpram
+	xpm_memory_spram
+	xpm_memory_sprom
+	xpm_memory_tdpram
+End time: 10:09:50 on Apr 03,2025, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim-64 vcom 2023.4 Compiler 2023.10 Oct  9 2023
+Start time: 10:09:50 on Apr 03,2025
+vcom -93 -work xpm /work_extra/tools/Xilinx/Vivado/2024.2/data/ip/xpm/xpm_VCOMP.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package VCOMPONENTS
+End time: 10:09:50 on Apr 03,2025, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim-64 vlog 2023.4 Compiler 2023.10 Oct  9 2023
+Start time: 10:09:50 on Apr 03,2025
+vlog -incr -mfcu "+notimingchecks" -suppress 8602 -sv -L hbm_v1_0_16 -L qdma_v5_0_12 -L axi_vip_v1_1_19 -L smartconnect_v1_0 -L xilinx_vip -work xil_defaultlib "+incdir+../../../../../../src/include" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ip/qdma_hbm_bd_hbm_0_0/hdl/rtl" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/7b8c/verif/model" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/f0b6/hdl/verilog" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/0127/hdl/verilog" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/ec67/hdl" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/3cbc" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ip/qdma_hbm_bd_qdma_0_0/ip_0/source" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/0e1b/hdl/verilog" "+incdir+/work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/include" ../../../../pcie-hbm_sim.ip_user_files/bd/qdma_hbm_bd/ip/qdma_hbm_bd_hbm_0_0/hdl/rtl/hbm_v1_0_16.sv 
+-- Compiling module hbm_v1_0_16
+
+Top level modules:
+	hbm_v1_0_16
+End time: 10:09:50 on Apr 03,2025, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim-64 vlog 2023.4 Compiler 2023.10 Oct  9 2023
+Start time: 10:09:50 on Apr 03,2025
+vlog -incr -mfcu "+notimingchecks" -suppress 8602 -sv -L hbm_v1_0_16 -L qdma_v5_0_12 -L axi_vip_v1_1_19 -L smartconnect_v1_0 -L xilinx_vip -work hbm_v1_0_16 "+incdir+../../../../../../src/include" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ip/qdma_hbm_bd_hbm_0_0/hdl/rtl" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/7b8c/verif/model" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/f0b6/hdl/verilog" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/0127/hdl/verilog" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/ec67/hdl" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/3cbc" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ip/qdma_hbm_bd_qdma_0_0/ip_0/source" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/0e1b/hdl/verilog" "+incdir+/work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/include" ../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/7b8c/hdl/hbm_v1_0_vl_rfs.sv 
+-- Compiling module hbm_top
+-- Compiling module hbm_apb_mst
+-- Compiling module hbm_temp_rd
+-- Compiling module hbm_apb_arbiter
+-- Compiling module hbm_data_fetch
+
+Top level modules:
+	hbm_top
+End time: 10:09:50 on Apr 03,2025, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim-64 vlog 2023.4 Compiler 2023.10 Oct  9 2023
+Start time: 10:09:50 on Apr 03,2025
+vlog -incr -mfcu "+notimingchecks" -suppress 8602 -sv -L hbm_v1_0_16 -L qdma_v5_0_12 -L axi_vip_v1_1_19 -L smartconnect_v1_0 -L xilinx_vip -work xil_defaultlib "+incdir+../../../../../../src/include" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ip/qdma_hbm_bd_hbm_0_0/hdl/rtl" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/7b8c/verif/model" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/f0b6/hdl/verilog" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/0127/hdl/verilog" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/ec67/hdl" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/3cbc" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ip/qdma_hbm_bd_qdma_0_0/ip_0/source" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/0e1b/hdl/verilog" "+incdir+/work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/include" ../../../../pcie-hbm_sim.ip_user_files/bd/qdma_hbm_bd/ip/qdma_hbm_bd_hbm_0_0/verif/model/hbm_model.sv ../../../../pcie-hbm_sim.ip_user_files/bd/qdma_hbm_bd/ip/qdma_hbm_bd_hbm_0_0/sim/qdma_hbm_bd_hbm_0_0.sv 
+-- Compiling module HBM
+-- Compiling module qdma_hbm_bd_hbm_0_0
+
+Top level modules:
+	HBM
+	qdma_hbm_bd_hbm_0_0
+End time: 10:09:50 on Apr 03,2025, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim-64 vlog 2023.4 Compiler 2023.10 Oct  9 2023
+Start time: 10:09:50 on Apr 03,2025
+vlog -incr -mfcu "+notimingchecks" -suppress 8602 -work xlconstant_v1_1_9 "+incdir+../../../../../../src/include" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ip/qdma_hbm_bd_hbm_0_0/hdl/rtl" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/7b8c/verif/model" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/f0b6/hdl/verilog" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/0127/hdl/verilog" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/ec67/hdl" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/3cbc" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ip/qdma_hbm_bd_qdma_0_0/ip_0/source" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/0e1b/hdl/verilog" "+incdir+/work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/include" ../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/e2d2/hdl/xlconstant_v1_1_vl_rfs.v 
+-- Compiling module xlconstant_v1_1_9_xlconstant
+
+Top level modules:
+	xlconstant_v1_1_9_xlconstant
+End time: 10:09:50 on Apr 03,2025, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim-64 vlog 2023.4 Compiler 2023.10 Oct  9 2023
+Start time: 10:09:50 on Apr 03,2025
+vlog -incr -mfcu "+notimingchecks" -suppress 8602 -work xil_defaultlib "+incdir+../../../../../../src/include" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ip/qdma_hbm_bd_hbm_0_0/hdl/rtl" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/7b8c/verif/model" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/f0b6/hdl/verilog" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/0127/hdl/verilog" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/ec67/hdl" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/3cbc" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ip/qdma_hbm_bd_qdma_0_0/ip_0/source" "+incdir+../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/0e1b/hdl/verilog" "+incdir+/work_extra/tools/Xilinx/Vivado/2024.2/data/xilinx_vip/include" ../../../../pcie-hbm_sim.ip_user_files/bd/qdma_hbm_bd/ip/qdma_hbm_bd_smartconnect_0_0/bd_0/ip/ip_0/sim/bd_b98b_one_0.v 
+-- Compiling module bd_b98b_one_0
+
+Top level modules:
+	bd_b98b_one_0
+End time: 10:09:51 on Apr 03,2025, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+QuestaSim-64 vcom 2023.4 Compiler 2023.10 Oct  9 2023
+Start time: 10:09:51 on Apr 03,2025
+vcom -93 -work lib_cdc_v1_0_3 ../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package ATTRIBUTES
+-- Loading package std_logic_misc
+** Error: ../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd(59): (vcom-1598) Library "unisim" not found.
+** Error: ../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd(60): (vcom-1136) Unknown identifier "unisim".
+** Note: ../../../../pcie-hbm_sim.gen/sources_1/bd/qdma_hbm_bd/ipshared/2a4f/hdl/lib_cdc_v1_0_rfs.vhd(64): VHDL Compiler exiting
+End time: 10:09:51 on Apr 03,2025, Elapsed time: 0:00:00
+Errors: 2, Warnings: 0
